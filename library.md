@@ -1,14 +1,14 @@
 # Library pipeline
 
 ```mermaid
-flowchart TD
+flowchart LR
     subgraph Sources
         SalesCSV[Sales CSV]
         ProductJSON[Product JSON]
         CustomerCSV[Customer CSV]
     end
 
-    subgraph Bronze["Bronze - raw data"]
+    subgraph Bronze["Bronze - Raw Data File"]
         BronzeSales[Raw sales]
         BronzeProducts[Raw products]
         BronzeCustomers[Raw customers]
