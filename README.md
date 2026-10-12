@@ -1,6 +1,6 @@
 # test123
 
 ```mermaid
-flowchart LR
+flowchart TD
     A --> B
 ```
